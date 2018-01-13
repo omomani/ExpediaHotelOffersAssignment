@@ -7,7 +7,8 @@ Public Class HotelOffersController
     Public Function GetHotelOffers(Optional Destination As String = "", Optional StayLength As String = "" _
     , Optional MinStarRating As String = "", Optional MaxStarRating As String = "" _
     , Optional MinGuestRating As String = "", Optional MaxGuestRating As String = "" _
-    , Optional MinTotalRate As String = "", Optional MaxTotalRate As String = "") As Models.HotelOffers
+    , Optional MinTotalRate As String = "", Optional MaxTotalRate As String = "" _
+    , Optional MinTripStartDate As String = "", Optional MaxTripStartDate As String = "") As Models.HotelOffers
         Dim appId As String = "ExpOffers"
         'Dim url As String = String.Format("http://api.openweathermap.org/data/2.5/forecast/daily?q={0}&units=metric&cnt=1&APPID={1}", txtCity.Text.Trim(), appId)
         Dim strUrl As New StringBuilder
@@ -40,6 +41,12 @@ Public Class HotelOffersController
         End If
         If Not String.IsNullOrWhiteSpace(MaxTotalRate) Then
             strUrl.Append("&maxTotalRate=").Append(MaxTotalRate.Trim)
+        End If
+        If Not String.IsNullOrWhiteSpace(MinTripStartDate) Then
+            strUrl.Append("&minTripStartDate=").Append(MinTripStartDate.Trim)
+        End If
+        If Not String.IsNullOrWhiteSpace(MaxTripStartDate) Then
+            strUrl.Append("&maxTripStartDate=").Append(MaxTripStartDate.Trim)
         End If
         Dim HotelOffersList As Models.HotelOffers
         Using client As New WebClient()
