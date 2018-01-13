@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExpediaHotelOffers.web
+</name>
+</assembly>
+<members>
+<member name="T:ExpediaHotelOffers.web.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ExpediaHotelOffers.web.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:ExpediaHotelOffers.web.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:ExpediaHotelOffers.web.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:ExpediaHotelOffers.web.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:ExpediaHotelOffers.web.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._txtDestinationName">
+<summary>
+txtDestinationName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._txtStayLength">
+<summary>
+txtStayLength control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._txtMinTotalRate">
+<summary>
+txtMinTotalRate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._txtMaxTotalRate">
+<summary>
+txtMaxTotalRate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._ddlMinStr">
+<summary>
+ddlMinStr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._ddlMaxStr">
+<summary>
+ddlMaxStr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._ddlMinRate">
+<summary>
+ddlMinRate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._ddlMaxRate">
+<summary>
+ddlMaxRate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ExpediaHotelOffers.web.hotelofferspage._RptHotelOffers">
+<summary>
+RptHotelOffers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
