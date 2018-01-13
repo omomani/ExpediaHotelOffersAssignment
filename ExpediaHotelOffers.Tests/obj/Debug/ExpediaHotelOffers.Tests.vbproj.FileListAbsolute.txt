@@ -1,0 +1,17 @@
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Tests.dll
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Tests.pdb
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Tests.xml
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Data.dll
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Models.dll
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Data.pdb
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Data.xml
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Models.pdb
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\ExpediaHotelOffers.Models.xml
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.vbprojResolveAssemblyReference.cache
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.Resources.resources
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.vbproj.GenerateResource.Cache
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.dll
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.xml
+c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Tests\obj\Debug\ExpediaHotelOffers.Tests.pdb
