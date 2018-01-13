@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class hotelofferspage
-    
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''txtDestinationName control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtDestinationName As Global.System.Web.UI.HtmlControls.HtmlInputText
-    
+
     '''<summary>
     '''txtStayLength control.
     '''</summary>
@@ -39,7 +39,25 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtStayLength As Global.System.Web.UI.HtmlControls.HtmlInputText
-    
+
+    '''<summary>
+    '''dpMinTripDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dpMinTripDate As Global.System.Web.UI.HtmlControls.HtmlInputText
+
+    '''<summary>
+    '''dpMaxTripDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dpMaxTripDate As Global.System.Web.UI.HtmlControls.HtmlInputText
+
     '''<summary>
     '''txtMinTotalRate control.
     '''</summary>
@@ -48,7 +66,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtMinTotalRate As Global.System.Web.UI.HtmlControls.HtmlInputText
-    
+
     '''<summary>
     '''txtMaxTotalRate control.
     '''</summary>
@@ -57,7 +75,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtMaxTotalRate As Global.System.Web.UI.HtmlControls.HtmlInputText
-    
+
     '''<summary>
     '''ddlMinStr control.
     '''</summary>
@@ -66,7 +84,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlMinStr As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''ddlMaxStr control.
     '''</summary>
@@ -75,7 +93,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlMaxStr As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''ddlMinRate control.
     '''</summary>
@@ -84,7 +102,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlMinRate As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''ddlMaxRate control.
     '''</summary>
@@ -93,7 +111,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlMaxRate As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''btnSearch control.
     '''</summary>
@@ -102,7 +120,7 @@ Partial Public Class hotelofferspage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnSearch As Global.System.Web.UI.HtmlControls.HtmlInputButton
-    
+
     '''<summary>
     '''RptHotelOffers control.
     '''</summary>
