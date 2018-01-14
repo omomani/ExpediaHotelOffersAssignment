@@ -118,7 +118,9 @@
                                         </a>
                                         <div style="float: right;"><%# Eval("HotelInfo.hotelReviewTotal") %> reviews</div>
                                         <br />
-
+                                        <div style="float: right;"><%# Eval("hotelUrgencyInfo.numberOfPeopleViewing") %> viewing this</div>
+                                        <br />
+                                        <div style="float: right;"><%# ResolveRoomsLeft(Eval("hotelUrgencyInfo.numberOfRoomsLeft")) %> </div>
 
                                         <table>
                                             <tr>
@@ -141,11 +143,13 @@
                                                         </tr>
                                                     </table>
                                                 </td>
+                                                
                                             </tr>
-                                            <tr>
-                                            </tr>
+                                            
                                         </table>
+                                        
                                     </td>
+                                  
                                 </tr>
                             </table>
 

@@ -3,25 +3,21 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
-            BindRepeater()
+            BindHotelOffersRepeater()
 
         End If
 
     End Sub
 
-    Private Sub BindRepeater(Optional DestinationCity As String = "", Optional StayLength As String = "" _
-    , Optional MinStarRating As String = "", Optional MaxStarRating As String = "" _
-    , Optional MinGuestRating As String = "", Optional MaxGuestRating As String = "" _
-    , Optional MinTotalRate As String = "", Optional MaxTotalRate As String = "" _
-    , Optional MinTripStartDate As String = "", Optional MaxTripStartDate As String = "")
+    Private Sub BindHotelOffersRepeater(Optional Filter As Models.HotelOffersFilter = Nothing)
         Using HotelController As New Data.HotelOffersController
 
 
             Dim HotelOffersList As New Models.HotelOffers
+            'Call HotelOffersController where the actual API call exist
+            HotelOffersList = HotelController.GetHotelOffers(Filter)
 
-            HotelOffersList = HotelController.GetHotelOffers(DestinationCity, StayLength, MinStarRating, MaxStarRating, MinGuestRating, MaxGuestRating, MinTotalRate, MaxTotalRate, MinTripStartDate, MaxTripStartDate)
-
-
+            'Binding
             RptHotelOffers.DataSource = HotelOffersList.offers.Hotel
             RptHotelOffers.DataBind()
 
@@ -30,16 +26,26 @@
     End Sub
 
     Private Sub btnSearch_ServerClick(sender As Object, e As EventArgs) Handles btnSearch.ServerClick
-        Dim DestinationCity As String = txtDestinationName.Value
-        Dim StayLength As String = txtStayLength.Value
-        Dim MinStarRating As String = ddlMinStr.SelectedValue
-        Dim MaxStarRating As String = ddlMaxStr.SelectedValue
-        Dim MinGuestRating As String = ddlMinRate.SelectedValue
-        Dim MaxGuestRating As String = ddlMaxRate.SelectedValue
-        Dim MinTotalRate As String = txtMinTotalRate.Value
-        Dim MaxTotalRate As String = txtMaxTotalRate.Value
-        Dim MinTripStartDate As String = dpMinTripDate.Value
-        Dim MaxTripStartDate As String = dpMaxTripDate.Value
-        BindRepeater(DestinationCity, StayLength, MinStarRating, MaxStarRating, MinGuestRating, MaxGuestRating, MinTotalRate, MaxTotalRate, MinTripStartDate, MaxTripStartDate)
+        'Create filter and populate
+        Dim Filter As New Models.HotelOffersFilter
+        Filter.Destination = txtDestinationName.Value
+        Filter.StayLength = txtStayLength.Value
+        Filter.MinStarRating = ddlMinStr.SelectedValue
+        Filter.MaxStarRating = ddlMaxStr.SelectedValue
+        Filter.MinGuestRating = ddlMinRate.SelectedValue
+        Filter.MaxGuestRating = ddlMaxRate.SelectedValue
+        Filter.MinTotalRate = txtMinTotalRate.Value
+        Filter.MaxTotalRate = txtMaxTotalRate.Value
+        Filter.MinTripStartDate = dpMinTripDate.Value
+        Filter.MaxTripStartDate = dpMaxTripDate.Value
+        'Bind repeater
+        BindHotelOffersRepeater(Filter)
     End Sub
+    Protected Function ResolveRoomsLeft(RoomsLeft As String) As String
+        If CInt(RoomsLeft) > 0 Then
+            Return RoomsLeft & " rooms left"
+        Else
+            Return "<font color='red'>sold out</font>"
+        End If
+    End Function
 End Class
