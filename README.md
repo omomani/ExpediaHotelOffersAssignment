@@ -1,5 +1,8 @@
 # ExpediaHotelOffersAssignment
 
+Website URL:
+https://expediahoteloffers.azurewebsites.net/hotelofferspage.aspx
+
 This site is a single page application that consume JSON API that represents a bunch of hotel deals provided by Expedia, the call is done as server call as requested.
 
 To set up the website and run you need to:
