@@ -10,3 +10,4 @@ c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Data\obj\Debug\ExpediaHotelOffers.Data.dll
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Data\obj\Debug\ExpediaHotelOffers.Data.xml
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Data\obj\Debug\ExpediaHotelOffers.Data.pdb
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Data\obj\Debug\ExpediaHotelOffers.Data.vbproj.CoreCompileInputs.cache
