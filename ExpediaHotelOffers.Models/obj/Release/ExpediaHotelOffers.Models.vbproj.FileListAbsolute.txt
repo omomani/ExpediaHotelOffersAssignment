@@ -1,0 +1,9 @@
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\bin\Release\ExpediaHotelOffers.Models.dll
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\bin\Release\ExpediaHotelOffers.Models.pdb
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\bin\Release\ExpediaHotelOffers.Models.xml
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.Resources.resources
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.vbproj.GenerateResource.Cache
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.vbproj.CoreCompileInputs.cache
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.dll
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.xml
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Release\ExpediaHotelOffers.Models.pdb
