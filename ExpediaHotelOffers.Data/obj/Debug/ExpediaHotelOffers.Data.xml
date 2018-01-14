@@ -22,5 +22,20 @@ ExpediaHotelOffers.Data
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:ExpediaHotelOffers.Data.HotelOffersController.GetHotelOffers(ExpediaHotelOffers.Models.HotelOffersFilter)">
+ <summary>
+ Public function that consumes the hotel offers API
+ It searches among the hotel offers provided by Expedia by passing certain parameters
+ </summary>
+ <param name="Filter">This parameter is a POCO class that contains all searchable parameters</param>
+ <returns>List of HotelOffers</returns>
+</member>
+<member name="M:ExpediaHotelOffers.Data.HotelOffersController.ResolveHotelOffersAPIURL(ExpediaHotelOffers.Models.HotelOffersFilter)">
+ <summary>
+ Private function to resolve the API URI with the parameters passed as filter
+ </summary>
+ <param name="Filter"></param>
+ <returns>String represents the resolved hotel offers API URI with parameters</returns>
+</member>
 </members>
 </doc>
