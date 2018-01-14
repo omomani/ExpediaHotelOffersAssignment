@@ -1,3 +1,7 @@
+
+Website URL:
+https://expediahoteloffers.azurewebsites.net/hotelofferspage.aspx
+
 In this simple website I want to consume JSON API that represents a bunch of hotel deals provided by Expedia, and to display the results in a simple easy-to-understand manner, I have thought to make the results look informative wile displaying the least possible data to the user as recommended in UX field users need to get useful info in minimum time and effort so that the way we present our data affects our customers' satisfaction very much.
 
 This site was built to make server side calls to get the data as per Expedia's request, while in fact I would have preferred if we built the application in one of the front-end frameworks such as Knockout, AngularJS, etc with AJAX call to get the data from the API provided and also we can make sure that each call is not from a cached list.
