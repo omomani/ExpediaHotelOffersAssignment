@@ -6,3 +6,5 @@ c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Debug\ExpediaHotelOffers.Models.dll
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Debug\ExpediaHotelOffers.Models.xml
 c:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Debug\ExpediaHotelOffers.Models.pdb
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Debug\ExpediaHotelOffers.Models.vbprojResolveAssemblyReference.cache
+C:\Users\Mud!r\Documents\Visual Studio 2015\Projects\ExpediaHotelOffersSolution\ExpediaHotelOffers.Models\obj\Debug\ExpediaHotelOffers.Models.vbproj.CoreCompileInputs.cache
