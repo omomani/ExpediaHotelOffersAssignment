@@ -29,7 +29,7 @@ During this exercise I have learnt:
   **.Net Core framework, and how to create cross platform applications using .net
   **And all the above done in one day as I was engaged in heavy workload in my work during the assignment given time.
   
-Note: I will be able to resubmit my website after I manage to rebuild it using .net core and hosting it on Heroku, but this needs more time as I mentioned before and I can do it during the weekend.
+Note: I will be able to resubmit my website after I manage to rebuild it using .net core and hosting it on Heroku, but this needs more time as I mentioned before and I can work on it during the weekend.
 
 Regards,
 Osama Momani,
