@@ -90,7 +90,7 @@
         <div>
             <asp:Repeater ID="RptHotelOffers" runat="server">
                 <HeaderTemplate>
-                    <table cellspacing="0" rules="all" border="1">
+                    <table cellspacing="0" rules="rows" border="1">
                 </HeaderTemplate>
                 <ItemTemplate>
                     <tr>
@@ -106,22 +106,16 @@
                                             <asp:Label ID="lblHotelName" runat="server" Text='<%# Eval("HotelInfo.hotelName") %>' />
 
                                         </a>
-
+                                        <br />
                                         <img alt='<%# Eval("HotelInfo.hotelStarRating") %> Star(s)' title='<%# Eval("HotelInfo.hotelStarRating") %> Star(s)' src='icons/stars/<%# Eval("HotelInfo.hotelStarRating") %>.png' />
 
-                                        <div style="float: right;"><b><%# Eval("HotelInfo.hotelGuestReviewRating") %> out of 5</b></div>
-                                        <br />
+                                        
                                         <a href='https://www.google.com/maps/@<%# Eval("HotelInfo.hotelLatitude") %>,<%# Eval("HotelInfo.hotelLongitude") %>,15z'>
                                             <img height="15" width="15" alt='location' title='location' src='icons/loc.png' usemap='https://www.google.com/maps/@<%# Eval("HotelInfo.hotelLatitude") %>,<%# Eval("HotelInfo.hotelLongitude") %>,18' />
                                             <%# Eval("destination.regionID") %>, <%# Eval("destination.city") %> 
                                         
                                         </a>
-                                        <div style="float: right;"><%# Eval("HotelInfo.hotelReviewTotal") %> reviews</div>
-                                        <br />
-                                        <div style="float: right;"><%# Eval("hotelUrgencyInfo.numberOfPeopleViewing") %> viewing this</div>
-                                        <br />
-                                        <div style="float: right;"><%# ResolveRoomsLeft(Eval("hotelUrgencyInfo.numberOfRoomsLeft")) %> </div>
-
+                                        
                                         <table>
                                             <tr>
                                                 <td></td>
@@ -149,13 +143,24 @@
                                         </table>
                                         
                                     </td>
-                                  
+                                    
+  
+                            
                                 </tr>
                             </table>
 
 
                         </td>
+                              <td v style="white-space: nowrap;display: table-cell;vertical-align: top;">
+                                      <div style="float: right;"><b><%# Eval("HotelInfo.hotelGuestReviewRating") %> out of 5</b></div>
+                                        <br />
+                                        <div style="float: right;"><%# Eval("HotelInfo.hotelReviewTotal") %> reviews</div>
+                                        <br />
+                                        <div style="float: right;"><%# Eval("hotelUrgencyInfo.numberOfPeopleViewing") %> viewing this</div>
+                                        <br />
+                                        <div style="float: right;"><%# ResolveRoomsLeft(Eval("hotelUrgencyInfo.numberOfRoomsLeft")) %> </div>
 
+                                  </td>
                     </tr>
                 </ItemTemplate>
                 <FooterTemplate>
